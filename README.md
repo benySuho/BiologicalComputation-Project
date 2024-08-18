@@ -12,6 +12,9 @@ This repository contains Python code for analyzing gene regulation conditions. T
 ## Requirements
 - numpy
 
+## How does the Engine works
+With given inputs of possible repressors configurations and activators configurations, the function runs in loops on all possible input variations, and generartes all possible outputs, and then checks if the outputs is actually poosible, if not, removes the output. For example: if all `Activators` are `On` and all `Repressors` are `Off`, it is impossible for tested Gene to be `Off`.
+
 ## Usage
 
 To get all the monotonic regulation conditions, you can call the `find_all_functions` function with two lists:
