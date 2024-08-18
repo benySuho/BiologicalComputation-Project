@@ -18,8 +18,8 @@ With given inputs of possible repressors configurations and activators configura
 ## Usage
 
 To get all the monotonic regulation conditions, you can call the `find_all_functions` function with two lists:
-activators_opts (list of numpy arrays): Each numpy array represents a possible configuration of activators.
-repressors_opts (list of numpy arrays): Each numpy array represents a possible configuration of repressors.
+activators_opts, repressors_opts (list of numpy arrays): Each numpy array represents a possible configuration of activators.
+
 For example:  
 ```python
 activators_options = increasing_unary_vectors((int)activators_number)
