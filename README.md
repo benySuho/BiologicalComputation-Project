@@ -22,8 +22,8 @@ activators_opts, repressors_opts (list of numpy arrays): Each numpy array repres
 
 For example:  
 ```python
-activators_options = increasing_unary_vectors((int)activators_number)
-repressors_options = increasing_unary_vectors((int)repressors_number)
+activators_options = increasing_unary_vectors(int(activators_number))
+repressors_options = increasing_unary_vectors(int(repressors_number))
 
 functions = find_all_functions(activators_options, repressors_options)
 ```
